@@ -1,0 +1,17 @@
+﻿<Window x:Class="AddStudent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddStudent"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="tb_Guid" HorizontalAlignment="Left" Margin="216,63,0,0" TextWrapping="Wrap" Text="" ToolTip="Это поле заполняется автоматически" IsReadOnly="True" VerticalAlignment="Top" Width="184" Height="52"/>
+        <TextBox Name="tb_Name"  HorizontalAlignment="Left" Margin="216,165,0,0" TextWrapping="Wrap" Text="ФИО: " VerticalAlignment="Top" Width="184" Height="52"/>
+        <TextBox Name="tb_Group" HorizontalAlignment="Left" Margin="216,269,0,0" TextWrapping="Wrap" Text="Группа: " VerticalAlignment="Top" Width="184" Height="52"/>
+        <Button Name="btn_save" Click="btn_save_click" Content="Сохранить" HorizontalAlignment="Left" Margin="558,89,0,0" VerticalAlignment="Top" Height="62" Width="139"/>
+        <Button  Name="btn_open" Click="btn_open_click"  Content="Открыть" HorizontalAlignment="Left" Margin="558,217,0,0" VerticalAlignment="Top" Height="62" Width="139"/>
+
+    </Grid>
+</Window>
